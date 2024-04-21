@@ -1,0 +1,77 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.advertisement-top,
+.advertisement-bottom {
+  height: 30%;
+}
+
+.checkin-section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkin-section h1 {
+  margin-bottom: 20px;
+}
+
+.package-item.active {
+  border: 2px solid red;
+}
+
+.Input-div {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	position: relative;
+	min-width: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	vertical-align: top;
+	width: 100%;
+	color:#dbd8cf
+}
+
+.OutlinedInput-root {
+	box-sizing: border-box;
+	min-height: 40px;
+	height: 100%;
+	border-radius: 10px;
+	border: 1px solid;
+	border-color: #D6E2EB;
+	-webkit-transition: border-color 120ms ease-in;
+	transition: border-color 120ms ease-in;
+}
+
+.Input-bk {
+	font: inherit;
+	letter-spacing: inherit;
+	color: currentColor;
+	padding: 4px 0 5px;
+	border: 0;
+	box-sizing: content-box;
+	background: none;
+	height: 1.4375em;
+	margin: 0;
+	-webkit-tap-highlight-color: transparent;
+	display: block;
+	min-width: 0;
+	width: 100%;
+	-webkit-animation-name: mui-auto-fill-cancel;
+	animation-name: mui-auto-fill-cancel;
+	-webkit-animation-duration: 10ms;
+	animation-duration: 10ms;
+	padding-top: 1px;
+	padding: 8.5px 14px;
+}
