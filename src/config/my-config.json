@@ -1,0 +1,16 @@
+{
+  "pms_url": "https://phklmt-pms.tegapp.com",
+  "link": "node",
+  "key": "551A7227F4A14F1BBA6DD9ACB46EF4E0",
+  "ipAddress": "127.0.0.1",
+  "port": 2887,
+  "issuerid": 1,
+  "wsid": 1,
+  "card_cnt": 1,
+  "ckout_time": "12:00",
+  "mykad_working_dir": "C:\\MyKad Wedge",
+  "mykad_exe": "Reading.exe",
+  "mykad_result_file": "mykadresult.txt",
+  "input_phone": 0,
+  "input_email": 0
+}
