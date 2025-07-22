@@ -1,0 +1,48 @@
+[33mcommit 48638e777451115eca398cb0fab7b147f14305d7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: 9f1131e 1992740
+Author: liuarthur <arthur.liu@theeverlygroup.com>
+Date:   Tue Jul 22 21:42:21 2025 +0800
+
+        Merge branch 'main' of https://github.com/liu-arthur/evoyze-ffd-kiosk
+
+[33mcommit 9f1131e9cd887cd5a20cd705f62c5ca15962c782[m
+Author: liuarthur <arthur.liu@theeverlygroup.com>
+Date:   Tue Jul 22 21:03:13 2025 +0800
+
+    updating createWindow
+
+[33mcommit 1992740f94bac2b1fff306303451cf09a2efd8d0[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: liu-arthur <84888484+liu-arthur@users.noreply.github.com>
+Date:   Sat Jul 5 17:09:34 2025 +0800
+
+    Update main.js
+    
+    Adding option in createWindow()
+    - alwaysOnTop: true,
+    - kiosk: true,
+
+[33mcommit b1f72dd32a032c8be4a8d711d7be3b9297be77fd[m
+Author: liu-arthur <84888484+liu-arthur@users.noreply.github.com>
+Date:   Thu Sep 12 15:56:58 2024 +0800
+
+    Update - 12-Sept-2024
+    
+    Enhancement and bug fixed.
+
+[33mcommit 97faad2854cc68be1bc149bf2cbc8b70d10a78ec[m
+Author: liuarthur <arthur.liu@theeverlygroup.com>
+Date:   Thu Sep 12 15:53:29 2024 +0800
+
+    add common symbol button - 12-sept-2024
+
+[33mcommit c919f49c15aed092f809eb98a903ceaf84670a4a[m
+Author: liuarthur <arthur.liu@theeverlygroup.com>
+Date:   Thu Sep 12 12:24:35 2024 +0800
+
+    update - 12-sept-2024
+
+[33mcommit 362803d23d55a1daefea60492507ddf82d152d7e[m[33m ([m[1;33mtag: [m[1;33minitial-commit[m[33m, [m[1;31mupstream/main[m[33m)[m
+Author: liuarthur-88 <pearl.milk88@gmail.com>
+Date:   Sun Apr 21 09:56:54 2024 +0800
+
+    initial-commit

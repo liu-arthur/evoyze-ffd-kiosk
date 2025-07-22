@@ -118,8 +118,8 @@ const createWindow = () => {
     width: 800,
     height: 600,
     autoHideMenuBar: true,
-    alwaysOnTop: true,
-    kiosk: true,
+    // alwaysOnTop: true,
+    // kiosk: true,
     fullscreen: true,
     webPreferences: {
       nodeIntegration: true,
@@ -127,6 +127,9 @@ const createWindow = () => {
       preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
     },
   });
+
+  mainWindow.setAlwaysOnTop(true);
+  mainWindow.setKiosk(true);
 
   // and load the index.html of the app.
   mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
